@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		851777FA2225397E00C423BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851777F92225397E00C423BB /* AppDelegate.swift */; };
+		851777FC2225397E00C423BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851777FB2225397E00C423BB /* ViewController.swift */; };
+		851777FE2225398100C423BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 851777FD2225398100C423BB /* Assets.xcassets */; };
+		851778012225398100C423BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 851777FF2225398100C423BB /* Main.storyboard */; };
+		8517780A22253A4500C423BB /* FileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8517780922253A4500C423BB /* FileSystem.swift */; };
+		8517780E2225407B00C423BB /* concept.png in Resources */ = {isa = PBXBuildFile; fileRef = 8517780D2225407B00C423BB /* concept.png */; };
+		8517781022254FC000C423BB /* MD5Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8517780F22254FC000C423BB /* MD5Encoder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		851777F62225397E00C423BB /* Yo.MD5Encoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yo.MD5Encoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		851777F92225397E00C423BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		851777FB2225397E00C423BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		851777FD2225398100C423BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		851778002225398100C423BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		851778022225398100C423BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		851778032225398100C423BB /* Yo_MD5Encoder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Yo_MD5Encoder.entitlements; sourceTree = "<group>"; };
+		8517780922253A4500C423BB /* FileSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSystem.swift; sourceTree = "<group>"; };
+		8517780D2225407B00C423BB /* concept.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = concept.png; sourceTree = "<group>"; };
+		8517780F22254FC000C423BB /* MD5Encoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MD5Encoder.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		851777F32225397E00C423BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		851777ED2225397E00C423BB = {
+			isa = PBXGroup;
+			children = (
+				851777F82225397E00C423BB /* Yo.MD5Encoder */,
+				851777F72225397E00C423BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		851777F72225397E00C423BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				851777F62225397E00C423BB /* Yo.MD5Encoder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		851777F82225397E00C423BB /* Yo.MD5Encoder */ = {
+			isa = PBXGroup;
+			children = (
+				8517780D2225407B00C423BB /* concept.png */,
+				851777F92225397E00C423BB /* AppDelegate.swift */,
+				851777FB2225397E00C423BB /* ViewController.swift */,
+				851777FD2225398100C423BB /* Assets.xcassets */,
+				851777FF2225398100C423BB /* Main.storyboard */,
+				851778022225398100C423BB /* Info.plist */,
+				851778032225398100C423BB /* Yo_MD5Encoder.entitlements */,
+				8517780922253A4500C423BB /* FileSystem.swift */,
+				8517780F22254FC000C423BB /* MD5Encoder.swift */,
+			);
+			path = Yo.MD5Encoder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		851777F52225397E00C423BB /* Yo.MD5Encoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 851778062225398100C423BB /* Build configuration list for PBXNativeTarget "Yo.MD5Encoder" */;
+			buildPhases = (
+				851777F22225397E00C423BB /* Sources */,
+				851777F32225397E00C423BB /* Frameworks */,
+				851777F42225397E00C423BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yo.MD5Encoder;
+			productName = Yo.MD5Encoder;
+			productReference = 851777F62225397E00C423BB /* Yo.MD5Encoder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		851777EE2225397E00C423BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Yo;
+				TargetAttributes = {
+					851777F52225397E00C423BB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 851777F12225397E00C423BB /* Build configuration list for PBXProject "Yo.MD5Encoder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 851777ED2225397E00C423BB;
+			productRefGroup = 851777F72225397E00C423BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				851777F52225397E00C423BB /* Yo.MD5Encoder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		851777F42225397E00C423BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851777FE2225398100C423BB /* Assets.xcassets in Resources */,
+				8517780E2225407B00C423BB /* concept.png in Resources */,
+				851778012225398100C423BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		851777F22225397E00C423BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851777FC2225397E00C423BB /* ViewController.swift in Sources */,
+				8517781022254FC000C423BB /* MD5Encoder.swift in Sources */,
+				8517780A22253A4500C423BB /* FileSystem.swift in Sources */,
+				851777FA2225397E00C423BB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		851777FF2225398100C423BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				851778002225398100C423BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		851778042225398100C423BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		851778052225398100C423BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		851778072225398100C423BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Yo.MD5Encoder/Yo_MD5Encoder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HAZAV255F2;
+				INFOPLIST_FILE = Yo.MD5Encoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kononov.Yo-MD5Encoder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		851778082225398100C423BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Yo.MD5Encoder/Yo_MD5Encoder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HAZAV255F2;
+				INFOPLIST_FILE = Yo.MD5Encoder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "kononov.Yo-MD5Encoder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		851777F12225397E00C423BB /* Build configuration list for PBXProject "Yo.MD5Encoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851778042225398100C423BB /* Debug */,
+				851778052225398100C423BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		851778062225398100C423BB /* Build configuration list for PBXNativeTarget "Yo.MD5Encoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851778072225398100C423BB /* Debug */,
+				851778082225398100C423BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 851777EE2225397E00C423BB /* Project object */;
+}
