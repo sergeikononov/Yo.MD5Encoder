@@ -10,16 +10,19 @@ import Foundation
 
 class FileSystem {
     static func doWork() {
-        if let path = Bundle.main.path(forResource: "concept", ofType: "png") {
-            if let data = try? NSMutableData(contentsOfFile: path) {
-                data?.appendByte(1)
-                while ((data?.length)! * 8) % 512 != 448 {
-                    data?.appendByte(0)
-                }
-                print(data?.length)
-                print(data!)
-            }
-        }
+//        if let path = Bundle.main.path(forResource: "test_picture", ofType: "jpg") {
+//            if let data = try? NSMutableData(contentsOfFile: path) {
+//                let a = data?.by
+//                let test = [Byte](a!.utf8)
+//                print(md5(test).checksum)
+//                data?.appendByte(1)
+//                while ((data?.length)! * 8) % 512 != 448 {
+//                    data?.appendByte(0)
+//                }
+//                print(data?.length)
+//                print(data!)
+//            }
+//        }
     }
 }
 

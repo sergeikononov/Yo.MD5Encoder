@@ -14,6 +14,8 @@
 		8517780A22253A4500C423BB /* FileSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8517780922253A4500C423BB /* FileSystem.swift */; };
 		8517780E2225407B00C423BB /* concept.png in Resources */ = {isa = PBXBuildFile; fileRef = 8517780D2225407B00C423BB /* concept.png */; };
 		8517781022254FC000C423BB /* MD5Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8517780F22254FC000C423BB /* MD5Encoder.swift */; };
+		85177812222669BF00C423BB /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85177811222669BF00C423BB /* MD5.swift */; };
+		851778142226747A00C423BB /* test_picture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 851778132226747A00C423BB /* test_picture.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		8517780922253A4500C423BB /* FileSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSystem.swift; sourceTree = "<group>"; };
 		8517780D2225407B00C423BB /* concept.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = concept.png; sourceTree = "<group>"; };
 		8517780F22254FC000C423BB /* MD5Encoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MD5Encoder.swift; sourceTree = "<group>"; };
+		85177811222669BF00C423BB /* MD5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
+		851778132226747A00C423BB /* test_picture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test_picture.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 		851777F82225397E00C423BB /* Yo.MD5Encoder */ = {
 			isa = PBXGroup;
 			children = (
+				851778132226747A00C423BB /* test_picture.jpg */,
 				8517780D2225407B00C423BB /* concept.png */,
 				851777F92225397E00C423BB /* AppDelegate.swift */,
 				851777FB2225397E00C423BB /* ViewController.swift */,
@@ -68,6 +73,7 @@
 				851778032225398100C423BB /* Yo_MD5Encoder.entitlements */,
 				8517780922253A4500C423BB /* FileSystem.swift */,
 				8517780F22254FC000C423BB /* MD5Encoder.swift */,
+				85177811222669BF00C423BB /* MD5.swift */,
 			);
 			path = Yo.MD5Encoder;
 			sourceTree = "<group>";
@@ -132,6 +138,7 @@
 			files = (
 				851777FE2225398100C423BB /* Assets.xcassets in Resources */,
 				8517780E2225407B00C423BB /* concept.png in Resources */,
+				851778142226747A00C423BB /* test_picture.jpg in Resources */,
 				851778012225398100C423BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				851777FC2225397E00C423BB /* ViewController.swift in Sources */,
+				85177812222669BF00C423BB /* MD5.swift in Sources */,
 				8517781022254FC000C423BB /* MD5Encoder.swift in Sources */,
 				8517780A22253A4500C423BB /* FileSystem.swift in Sources */,
 				851777FA2225397E00C423BB /* AppDelegate.swift in Sources */,

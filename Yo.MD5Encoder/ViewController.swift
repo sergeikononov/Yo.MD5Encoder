@@ -10,12 +10,11 @@ import Cocoa
 
 class ViewController: NSViewController {
     
-    let data = FileSystem()
+    @IBOutlet var inputText: NSTextField!
+    @IBOutlet var outputText: NSTextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        FileSystem.doWork()
-        // Do any additional setup after loading the view.
     }
 
     override var representedObject: Any? {
@@ -23,7 +22,11 @@ class ViewController: NSViewController {
         // Update the view, if already loaded.
         }
     }
-
+    @IBAction func getHash(_ sender: NSButton) {
+        let bytes = [Byte](inputText.stringValue.utf8)
+        outputText.stringValue = md5(bytes).checksum
+    }
+    
 
 }
 
